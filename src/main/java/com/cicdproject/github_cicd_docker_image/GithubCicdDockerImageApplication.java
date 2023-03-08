@@ -11,7 +11,7 @@ public class GithubCicdDockerImageApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to javatechie !";
+		return "Welcome to the Docker Image !";
 	}
 
 	/*echo "# docker_project" >> README.md
