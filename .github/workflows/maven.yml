@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: dockerimage cicd flow
+name: dockerimage cicd flow 2
 
 on:
   push:
