@@ -14,7 +14,7 @@
 	<name>github_cicd_docker_image</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -37,6 +37,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>docker_image_springboot</finalName>
 	</build>
 	<repositories>
 		<repository>
